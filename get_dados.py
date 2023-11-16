@@ -14,4 +14,3 @@ def get_dados():
 
     return resultado
 
-print(get_dados())

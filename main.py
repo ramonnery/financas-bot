@@ -5,12 +5,11 @@ bot = telebot.TeleBot(CHAVE_API)
 
 @bot.message_handler(func=lambda _: True)
 def responder(mensagem):
-    global orcamento_semanal
     print(mensagem)
     user_name = mensagem.from_user.first_name
 
     texto_inicial =  f'''
-Olá, {user_name}! Meu nome é Finanças. Vou te ajudar a controlar melhor seu dinheiro no decorrer da semana. Segundo meu banco de dados, seu orçamento semanal atual está no valor de R$ {orcamento_semanal}
+Olá, {user_name}! Meu nome é Finanças. Vou te ajudar a controlar melhor seu dinheiro no decorrer da semana. Segundo meu banco de dados, seu orçamento semanal atual está no valor de R$ {0}
     
     Para iniciarmos, clique em um dos itens abaixo:
     /Atualizar o valor do seu orçamento semanal

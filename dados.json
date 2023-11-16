@@ -1,11 +1,37 @@
 {
     "orcamento": 0.0,
     "gastos": [
-                {"descricao": "Cinema", "valor": 50.0},
-                {"descricao": "Restaurante", "valor": 80.0},
-                {"descricao": "Transporte", "valor": 30.0},
-                {"descricao": "Cordeiro", "valor": 150.0},
-                {"descricao": "Igreja", "valor": 90.0},
-                {"descricao": "Cordeiro", "valor": 30.0}
-             ]
+        {
+            "descricao": "Cinema",
+            "valor": 50.0
+        },
+        {
+            "descricao": "Restaurante",
+            "valor": 80.0
+        },
+        {
+            "descricao": "Transporte",
+            "valor": 30.0
+        },
+        {
+            "descricao": "Cordeiro",
+            "valor": 150.0
+        },
+        {
+            "descricao": "Igreja",
+            "valor": 90.0
+        },
+        {
+            "descricao": "Cordeiro",
+            "valor": 30.0
+        },
+        {
+            "descricao": "Isopor",
+            "valor": 35.41
+        },
+        {
+            "descricao": "Danone",
+            "valor": 14.0
+        }
+    ]
 }
